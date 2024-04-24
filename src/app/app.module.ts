@@ -12,6 +12,7 @@ import { ShopingListComponent } from './shoping-list/shoping-list.component';
 import { ShopingEditComponent } from './shoping-list/shoping-edit/shoping-edit.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShopingListService } from './shoping-list/shoping-list.service';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -30,6 +31,7 @@ import { ShopingListService } from './shoping-list/shoping-list.service';
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
   ],
   providers: [ShopingListService],
   bootstrap: [AppComponent]
